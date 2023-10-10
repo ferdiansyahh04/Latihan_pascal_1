@@ -9,11 +9,11 @@ begin
     clrscr;
     writeln();
     write('Input Golongan Karyawan : ' );
-    readln(Golongan);
+    read(Golongan);
 
     writeln();
     write('Input Pendidikan Karyawan : ' );
-    readln(Pendidikan);
+    read(Pendidikan);
 
         if (upcase(Golongan) = 'A') then
         if (upcase(Pendidikan) = 'SMA') then
