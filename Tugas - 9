@@ -4,10 +4,6 @@ var
     i: integer;
 begin
     clrscr;
-    writeln();
-    writeln('NAMA :  RIZKY FERDIANSYAH');
-    writeln('NPM : 202343500964');
-    writeln('KELAS : S1E INFORMATIKA');
     
     writeln();
     write('Input Angka Kelipatan yang diinginkan :');
