@@ -5,10 +5,6 @@ var
 begin
     clrscr;
 
-    writeln('NAMA :  RIZKY FERDIANSYAH');
-    writeln('NPM : 202343500964');
-    writeln('KELAS : S1E INFORMATIKA');
-
     writeln();
     writeln('======= Penginputan Nama Bulan =======');
     writeln('======================================');
