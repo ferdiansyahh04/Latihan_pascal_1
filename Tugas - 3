@@ -6,10 +6,6 @@ var
 begin
     clrscr;
 
-    writeln('NAMA :  RIZKY FERDIANSYAH');
-    writeln('NPM : 202343500964');
-    writeln('KELAS : S1E INFORMATIKA');
-
     Fahrenheit:= (28 * 1.8 + 32);
     Reamur:= ((30 * 4) / 5);
 
