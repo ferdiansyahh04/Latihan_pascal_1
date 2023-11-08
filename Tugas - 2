@@ -5,10 +5,8 @@ var
     soal3 : integer;
     soal4 : real;
     soal5 : boolean;
+
 begin
-    writeln('NAMA :  RIZKY FERDIANSYAH');
-    writeln('NPM : 202343500964');
-    writeln('KELAS : S1E INFORMATIKA');
 
     soal1:= 10 div 5 * 4 + 4 - 3;
     soal2:= ((5 * 10) / 2) - 13 + 7;
