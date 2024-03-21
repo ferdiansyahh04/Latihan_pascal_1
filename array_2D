@@ -1,0 +1,26 @@
+program array2_dimensi;
+uses crt;
+const maks=3;
+var
+	i,j:integer;
+	matrims:array[1..maks,1..maks]of integer;
+begin
+	writeln ('Mengisi matriks A');
+	writeln;
+	for i :=1 to maks do
+	for j :=1 to maks do
+		begin
+		write('A[',i,',',j,'] : ');
+		readln(matriks[i,j]);
+		end;
+	writeln;
+	writeln('Isi matriks A');
+	writeln('-------');
+	for i:=1 to maks do
+	for j:=1 to maks do
+		begin
+		if j=maks then writeln(matriks[i,j])
+		else
+		write(matriks[i,j],'');
+		end;
+end.
